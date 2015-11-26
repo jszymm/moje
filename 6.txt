@@ -1,4 +1,4 @@
-// break.cpp dffd
+// break.cpp dffd dfdfdfd 
 // Iloczyn liczb o podanej dlugosci
 // Instrukc
 ja break by wyjsc gdy liczba podana to 0
