@@ -1,0 +1,42 @@
+------------------------------------------------------------------------------------
+/* Punkty 
+-
+notowanie wynikow */
+#include <stdio.h>
+#include <co
+nio.h>
+int correct, wrong;
+ask(char quest[15], int ans);
+main()
+{
+char question[15];
+int answer;
+clrscr();
+correct = 0;
+wrong = 0;
+ask("4 + 5 = ", 9);
+ask("6 + 2 = ", 8);
+ask("5 + 5 = ", 10);
+ask("4 + 7 = ", 11);
+printf("Odpowiedziales na %d pytan poprawni
+e.
+\
+n", correct);
+printf("Na %d pytan zle.
+\
+n", wrong);
+getch();
+return;
+} /* main */
+ask(char quest[15], int ans)
+{
+int guess;
+printf("%s", quest);
+scanf("%d", &guess);
+if (guess == ans)
+++correct; /* zwiekszanie odpow. dobrych */
+else
+++wrong; /* zwiekszan
+ie odpow. zlych */
+return; 
+} /* ask */
