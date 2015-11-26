@@ -1,0 +1,40 @@
+// break.cpp
+// Iloczyn liczb o podanej dlugosci
+// Instrukc
+ja break by wyjsc gdy liczba podana to 0
+// Wersja C++
+#include <iostream.h>
+#include <conio.h>
+int main(void)
+{
+int ilocz, liczba, i, dlug; // iloczyn, liczba, i, dlugosc
+int pop; // poprawny
+pop=1;
+ilocz=1;
+liczba=1;
+clrscr();
+cout << "Podaj ilosc liczb 
+do mnozenia (dlug. ciagu): " ;
+cin >> dlug;
+cout << endl << "Podaj liczby: " << endl;
+for (i=1; i<=dlug; i++)
+{ // for
+cin >> liczba;
+if (liczba == 0)
+{
+pop=0;
+cout << "Blad danych!!!";
+break;
+}
+ilocz *= liczba;
+} // for
+if (pop)
+cout << "Iloczyn = " << il
+ocz;
+else
+cout << "Blad danych 
+-
+0 ";
+getch();
+return (0);
+}
