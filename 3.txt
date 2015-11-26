@@ -1,4 +1,4 @@
-/* stat.c 
+/* stat.c  ss
 -
 zmienna statyczna */
 #include <stdio.h>
