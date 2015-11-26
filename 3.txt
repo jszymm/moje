@@ -1,0 +1,54 @@
+/* stat.c 
+-
+zmienna statyczna */
+#include <stdio.h>
+#include <dos.h>
+#include <math.h>
+#include <string.h>
+#include <conio.h>
+void doit(); /* pro
+totyp funkcji */
+void main()
+{
+clrscr();
+puts("Funkcja doit() zawiera zmienna zwykla i statyczna 
+-
+zwiekszane o 1 
+\
+n");
+puts("1
+-
+e wywolanie funkcji doit()");
+doit();
+puts("
+\
+n2
+-
+e wywolanie funkcji doit()");
+doit();
+puts("
+\
+n3
+-
+e wywolanie funkcji doit()");
+do
+it();
+puts("
+\
+n4
+-
+e wywolanie funkcji doit()");
+doit();
+getch();
+} /* main() */
+void doit()
+{
+int autovar = 0;
+/* int statvar = 0; */
+static int statvar=0;
+printf("autovar is %d statvar is %d
+\
+n", autovar, statvar);
+++autovar;
+++statvar;
+}
