@@ -1,0 +1,48 @@
+------------------------------------------------------------------------------------
+/* Program switch.cpp */
+/* while warunek {... }; switch
+-
+case
+-
+default */
+// Wariant C++ 
+-
+wprowadzenie i wyprowadzenie danych
+// Komentarz wierszowy w C++
+# include 
+<iostream.h> //w C++
+#include <conio.h>
+int main(void)
+{
+int ocena=1;
+clrscr();
+cout << "Klasyfikacja na podstawie oceny
+\
+n";
+while (ocena != 0)
+{
+cout << "
+\
+nPodaj ocene 1..6, 0 
+-
+koniec
+\
+n"; // Wydruk w C++
+cin >> ocena; // Wprowadzenie danej w C++ 
+switch 
+(ocena) 
+{ // switch
+case 1: cout << "niedost" ; break; // Uwaga na break !!
+case 2: cout << "mierny" ; break;
+case 3: cout << "dost" ; break;
+case 4: cout << "dobry" ; break;
+case 5: cout << "b. dobry" ; break;
+case 6: cout << "celujacy" ; break;
+case 0: 
+cout << "Konczysz prace. OK!"; break;
+default: cout << "Blad danych";
+} // switch
+} // while
+getch();
+return (0);
+} // main
