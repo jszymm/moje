@@ -1,0 +1,71 @@
+/
+*pokoje.c*/
+/* 2 tablice row
+nolegle: pokoj[10] i max[10] */
+#include <stdio.h>
+#include <conio.h>
+int pokoj[10]={102, 107, 109, 112,115,116,123,125,127,130};
+int max[10]={12,43,23,12,20,15,16,23,12,15};
+void main()
+{
+int index, choice, num, pokoje, flag, found;
+clrscr();
+pokoje=10;
+p
+uts("1. 
+Pokoje wg numerow
+\
+n");
+puts("2. Wielkosc podanego pokoju
+\
+n");
+puts("3. Znajdz pokoje o danej wielkosci
+\
+n");
+printf("Wybierz 1 do 3: ");
+scanf("%d", &choice);
+if(choice==1)
+{ /* 1 */
+for(index=0;index <pokoje; index++)
+printf("Pokoj %d %d osob maks
+\
+n",pokoj[index],max[index]);
+} /* 1 */
+if(choice==2)
+{ /* if 2 */
+printf("Podaj numer pokoju: ");
+scanf("%d", &num);
+index=1;
+found=0;
+while(!found && index<pokoje)
+if(pokoj[index]==num)
+found=1;
+else
+index++;
+if(!found)
+puts("Nie mozna z tego pokoju skorz
+ystac");
+else
+printf("Pokoj %d miesci %d osob
+\
+n", pokoj[index],max[index]);
+} /* if 2 */
+if(choice==3)
+{ /* 3 */
+flag=0;
+printf("Min. ilosc osob: ");
+scanf("%d", &num);
+for(index=0; index<pokoje; index++)
+if(max[index]>=num)
+{
+flag=1;
+printf("Pokoj %d mies
+ci %d osob
+\
+n",pokoj[index],max[index]);
+}
+if(flag==0)
+puts("Nie ma pokoi takiej wielkosci");
+} /* 3*/
+getch();
+} /* main */
