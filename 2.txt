@@ -1,0 +1,53 @@
+/* f_to_c.c Zamiana st Fahr. na Celsusza
+Pro
+gram ze zmienna zewn. temp. Funkcje
+*/
+#include <stdio.h>
+#include <conio.h>
+int temp; /* zmienna zewn */
+main()
+{
+clrscr();
+printf("Wprowadz temperature w st [F] :");
+scanf("%d", &temp);
+convert();
+freeze();
+boil();
+getch();
+}
+convert()
+{
+float celsius;
+c
+elsius = (5.0/9.0)*(temp
+-
+32);
+printf("%d st F to %6.2f st C
+\
+n",temp, celsius);
+return;
+}
+freeze()
+{
+printf("To %d st od pktu zamarz. wody
+\
+n",temp
+-
+32);
+return;
+}
+boil()
+{
+printf("To %d st od pktu wrzenia wody.
+\
+n", 212
+-
+temp);
+return;
+}
+/* 
+------------
+Koniec
+listingu f_to_c.c 
+---
+*/
