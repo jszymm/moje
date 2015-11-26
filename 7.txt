@@ -1,5 +1,5 @@
-/* tabl1.c Tablica wektorowa */ dfdf
-#include <stdio.h>
+/* tabl1.c Tablica wektorowa */ dfdf  taka nowa
+#include <stdio.h> 
 #include <conio.h>
 #define MAX1 5
 void main()
