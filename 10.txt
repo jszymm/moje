@@ -1,4 +1,4 @@
-/ fddf
+/ fddf  fddsd
 *pokoje.c*/
 /* 2 tablice row
 nolegle: pokoj[10] i max[10] */
