@@ -1,5 +1,6 @@
 /* f_to_c.c Zamiana st Fahr. na Celsusza  aa
 Pro
+pierwsza galaa
 gram ze zmienna zewn. temp. Funkcje
 */
 #include <stdio.h>
