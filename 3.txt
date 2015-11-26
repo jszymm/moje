@@ -1,5 +1,5 @@
 /* stat.c  ss
--
+-hghgh
 zmienna statyczna */
 #include <stdio.h>
 #include <dos.h>
