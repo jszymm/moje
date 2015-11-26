@@ -1,5 +1,5 @@
 /* quiz3.c Kilka funkcji //a 
-ddsdfd
+ddsdfd dfdfd
 -
 wywoluje funkcja main() */
 #include <stdio.h>
