@@ -1,4 +1,4 @@
-/* Tablprzek.c */
+/* Tablprzek.c */ dfdf
 /* Przekazywanie tablic */
 #include <stdio.h>
 #include <conio.h>
