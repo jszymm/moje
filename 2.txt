@@ -9,7 +9,7 @@ main()
 {
 clrscr();
 printf("Wprowadz temperature w st [F] :");
-scanf("%d", &temp);
+scanf("%d", &temp); gfgf
 convert();
 freeze();
 boil();
