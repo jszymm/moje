@@ -1,4 +1,5 @@
-/* quiz3.c Kilka funkcji //a
+/* quiz3.c Kilka funkcji //a 
+ddsdfd
 -
 wywoluje funkcja main() */
 #include <stdio.h>
