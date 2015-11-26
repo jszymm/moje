@@ -1,4 +1,4 @@
-/* f_to_c.c Zamiana st Fahr. na Celsusza
+/* f_to_c.c Zamiana st Fahr. na Celsusza  aa
 Pro
 gram ze zmienna zewn. temp. Funkcje
 */
