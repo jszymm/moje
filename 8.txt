@@ -1,4 +1,4 @@
-/* Wyszukiwanie wartosci w tablicy */
+/* Wyszukiwanie wartosci w tablicy */ fdfd
 #include <stdio.h>
 #include <conio.h>
 #define MAX1 5
